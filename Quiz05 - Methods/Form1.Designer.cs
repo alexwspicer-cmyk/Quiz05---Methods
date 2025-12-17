@@ -67,6 +67,7 @@
             // 
             // label2
             // 
+            label2.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(1, 9);
             label2.Name = "label2";
             label2.Size = new Size(355, 20);
@@ -75,6 +76,7 @@
             // 
             // label3
             // 
+            label3.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(0, 64, 0);
             label3.Location = new Point(1, 29);
             label3.Name = "label3";
@@ -92,6 +94,7 @@
             q1Button.TabIndex = 4;
             q1Button.Text = "Code Me";
             q1Button.UseVisualStyleBackColor = false;
+            q1Button.Click += q1Button_Click;
             // 
             // q2Button
             // 
@@ -103,9 +106,11 @@
             q2Button.TabIndex = 7;
             q2Button.Text = "Code Me";
             q2Button.UseVisualStyleBackColor = false;
+            q2Button.Click += q2Button_Click;
             // 
             // label4
             // 
+            label4.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(0, 64, 0);
             label4.Location = new Point(1, 185);
             label4.Name = "label4";
@@ -115,6 +120,7 @@
             // 
             // label5
             // 
+            label5.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.Location = new Point(1, 139);
             label5.Name = "label5";
             label5.Size = new Size(355, 37);
@@ -123,6 +129,7 @@
             // 
             // label6
             // 
+            label6.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(0, 64, 0);
             label6.Location = new Point(1, 285);
             label6.Name = "label6";
@@ -140,9 +147,11 @@
             q3Button.TabIndex = 11;
             q3Button.Text = "Code Me";
             q3Button.UseVisualStyleBackColor = false;
+            q3Button.Click += q3Button_Click;
             // 
             // label7
             // 
+            label7.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.FromArgb(0, 64, 0);
             label7.Location = new Point(378, 43);
             label7.Name = "label7";
@@ -152,6 +161,7 @@
             // 
             // label8
             // 
+            label8.Font = new Font("Consolas", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.Location = new Point(378, 9);
             label8.Name = "label8";
             label8.Size = new Size(355, 33);
@@ -162,14 +172,14 @@
             // 
             aTextBox.Location = new Point(413, 179);
             aTextBox.Name = "aTextBox";
-            aTextBox.Size = new Size(100, 23);
+            aTextBox.Size = new Size(100, 27);
             aTextBox.TabIndex = 12;
             // 
             // bTextBox
             // 
             bTextBox.Location = new Point(601, 179);
             bTextBox.Name = "bTextBox";
-            bTextBox.Size = new Size(100, 23);
+            bTextBox.Size = new Size(100, 27);
             bTextBox.TabIndex = 13;
             // 
             // label9
@@ -216,7 +226,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(758, 548);
